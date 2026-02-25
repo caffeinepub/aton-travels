@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A modern, professional, mobile-friendly business website for AtoN Travels — a travel agency based in Jammu & Kashmir, India. The site features 7 pages (Home, About Us, Services, Tour Packages, Contact, Gallery, Testimonials), WhatsApp/Call buttons, inquiry form, Google Maps placeholder, responsive design, and SEO-friendly content.",
+  "architectural_notes": [
+    "Multi-page website (7 pages): Home, About Us, Services, Tour Packages, Contact, Gallery, Testimonials",
+    "Target audience: tourists, families, couples, and groups; tone is friendly, trustworthy, professional",
+    "Business location: Jammu & Kashmir, India — content should reflect Kashmir/Leh Ladakh/All India tours",
+    "Real contact details: Phone 7006946979, Email arsalandezayker@gmail.com — use throughout site (footer, contact page, WhatsApp/Call buttons)"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-multi-page-react-frontend-with-smooth-client-side-routing-covering-home-about-us-services-tour-packages-contact-gallery-and-testimonials-pages-include-a-persistent-responsive-navigation-bar-with-the-aton-travels-logo-name-and-mobile-hamburger-menu-and-a-footer-with-business-contact-details-and-quick-links",
+      "title": "Implement a multi-page React frontend with smooth client-side routing covering: Home, About Us, Services, Tour Packages, Contact, Gallery, and Testimonials pages. Include a persistent responsive navigation bar with the AtoN Travels logo/name and mobile hamburger menu, and a footer with business contact details and quick links.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-home-page-with-a-full-width-hero-section-displaying-the-hero-image-hero-kashmir-dim-1920x1080-jpg-the-tagline-your-journey-our-responsibility-a-sub-headline-inviting-visitors-to-explore-kashmir-beyond-and-two-cta-buttons-explore-packages-and-contact-us-below-the-hero-include-a-quick-stats-bar-years-of-experience-happy-travelers-destinations-and-a-teaser-section-previewing-services-and-featured-packages",
+      "title": "Build the Home page with a full-width hero section displaying the hero image (hero-kashmir.dim_1920x1080.jpg), the tagline 'Your Journey, Our Responsibility', a sub-headline inviting visitors to explore Kashmir & beyond, and two CTA buttons: 'Explore Packages' and 'Contact Us'. Below the hero, include a quick-stats bar (years of experience, happy travelers, destinations) and a teaser section previewing services and featured packages.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-about-us-page-with-a-description-of-aton-travels-as-a-trusted-locally-rooted-travel-agency-based-in-jammu-kashmir-india-include-a-mission-statement-key-trust-indicators-licensed-experienced-team-24-7-support-and-the-about-team-dim-800x500-jpg-image",
+      "title": "Build the About Us page with a description of AtoN Travels as a trusted, locally-rooted travel agency based in Jammu & Kashmir, India. Include a mission statement, key trust indicators (licensed, experienced team, 24/7 support), and the about-team.dim_800x500.jpg image.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-services-page-listing-all-five-services-with-dedicated-cards-tour-packages-kashmir-leh-ladakh-all-india-taxi-transport-services-hotel-bookings-flight-bookings-and-custom-travel-planning-each-card-should-have-an-icon-a-title-a-short-description-and-a-learn-more-inquire-cta",
+      "title": "Build the Services page listing all five services with dedicated cards: Tour Packages (Kashmir, Leh Ladakh, All India), Taxi & Transport Services, Hotel Bookings, Flight Bookings, and Custom Travel Planning. Each card should have an icon, a title, a short description, and a 'Learn More / Inquire' CTA.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-tour-packages-page-with-at-least-4-featured-package-cards-include-kashmir-valley-tour-leh-ladakh-adventure-vaishno-devi-pilgrimage-and-all-india-grand-tour-each-card-should-display-the-package-image-title-duration-highlights-price-indication-and-a-book-now-cta-button-that-scrolls-or-links-to-the-contact-inquiry-form",
+      "title": "Build the Tour Packages page with at least 4 featured package cards. Include: Kashmir Valley Tour, Leh Ladakh Adventure, Vaishno Devi Pilgrimage, and All India Grand Tour. Each card should display the package image, title, duration, highlights, price indication, and a 'Book Now' CTA button that scrolls or links to the Contact/inquiry form.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-contact-page-with-a-whatsapp-button-linking-to-https-wa-me-placeholder-number-a-call-now-button-with-a-tel-link-a-contact-inquiry-form-fields-name-email-phone-travel-destination-travel-dates-message-submit-a-google-maps-embed-placeholder-static-image-or-iframe-placeholder-for-jammu-kashmir-location-and-the-business-address-phone-email-displayed",
+      "title": "Build the Contact page with: a WhatsApp button linking to 'https://wa.me/' (placeholder number), a 'Call Now' button with a tel: link, a contact inquiry form (fields: Name, Email, Phone, Travel Destination, Travel Dates, Message, Submit), a Google Maps embed placeholder (static image or iframe placeholder for Jammu & Kashmir location), and the business address/phone/email displayed.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-gallery-page-displaying-a-responsive-photo-grid-using-the-generated-travel-images-gallery-01-through-gallery-06-support-a-lightbox-or-modal-view-when-clicking-an-image-to-see-it-enlarged",
+      "title": "Build the Gallery page displaying a responsive photo grid using the generated travel images (gallery-01 through gallery-06). Support a lightbox or modal view when clicking an image to see it enlarged.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-testimonials-page-and-include-a-testimonials-preview-section-on-the-home-page-with-at-least-5-customer-review-cards-each-card-should-show-the-reviewer-s-name-location-star-rating-1-5-and-review-text-use-realistic-placeholder-reviews-referencing-kashmir-and-leh-ladakh-trips",
+      "title": "Build the Testimonials page (and include a testimonials preview section on the Home page) with at least 5 customer review cards. Each card should show the reviewer's name, location, star rating (1–5), and review text. Use realistic placeholder reviews referencing Kashmir and Leh Ladakh trips.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-floating-sticky-action-buttons-visible-on-all-pages-a-whatsapp-floating-button-bottom-right-green-and-a-call-now-floating-button-bottom-right-above-whatsapp-both-should-be-visible-on-mobile-and-desktop-and-use-appropriate-icons",
+      "title": "Add floating sticky action buttons visible on all pages: a WhatsApp floating button (bottom-right, green) and a Call Now floating button (bottom-right, above WhatsApp). Both should be visible on mobile and desktop and use appropriate icons.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-visual-design-theme-throughout-the-site-warm-earthy-tones-deep-teal-saffron-amber-off-white-evoking-kashmir-s-landscape-use-clean-sans-serif-typography-generous-whitespace-subtle-card-shadows-and-smooth-hover-transitions-ensure-fully-mobile-responsive-layouts-across-all-pages-using-tailwind-css-breakpoints",
+      "title": "Apply a cohesive visual design theme throughout the site: warm earthy tones (deep teal, saffron/amber, off-white) evoking Kashmir's landscape. Use clean sans-serif typography, generous whitespace, subtle card shadows, and smooth hover transitions. Ensure fully mobile-responsive layouts across all pages using Tailwind CSS breakpoints.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-static-images-from-frontend-public-assets-generated-throughout-the-site-hero-kashmir-dim-1920x1080-jpg-as-the-home-hero-background-about-team-dim-800x500-jpg-on-the-about-page-package-kashmir-dim-600x400-jpg-package-ladakh-dim-600x400-jpg-package-vaishno-dim-600x400-jpg-package-india-dim-600x400-jpg-on-tour-package-cards-and-gallery-01-through-gallery-06-each-dim-800x600-jpg-in-the-gallery-page",
+      "title": "Render the generated static images from frontend/public/assets/generated throughout the site: hero-kashmir.dim_1920x1080.jpg as the Home hero background, about-team.dim_800x500.jpg on the About page, package-kashmir.dim_600x400.jpg / package-ladakh.dim_600x400.jpg / package-vaishno.dim_600x400.jpg / package-india.dim_600x400.jpg on Tour Package cards, and gallery-01 through gallery-06 (each dim_800x600.jpg) in the Gallery page.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-placeholder-phone-numbers-and-email-addresses-across-the-entire-site-with-the-real-contact-details-phone-number-7006946979-and-email-arsalandezayker-gmail-com-this-includes-the-contact-page-displayed-address-block-call-now-button-tel-link-whatsapp-button-href-the-footer-component-contact-details-section-the-floatingactionbuttons-component-call-now-tel-link-and-whatsapp-href-using-wa-me-917006946979-and-the-navbar-call-now-cta-button",
+      "title": "Replace all placeholder phone numbers and email addresses across the entire site with the real contact details: phone number 7006946979 and email arsalandezayker@gmail.com. This includes: the Contact page (displayed address block, Call Now button tel: link, WhatsApp button href), the Footer component (contact details section), the FloatingActionButtons component (Call Now tel: link and WhatsApp href using wa.me/917006946979), and the Navbar 'Call Now' CTA button.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with hero section and tagline 'Your Journey, Our Responsibility'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us page with trusted travel service description",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services page listing all 5 services (tour packages, taxi, hotel, flight, custom planning)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Tour Packages page with featured packages and call-to-action",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact page with phone, WhatsApp button, contact form, and Google Maps placeholder",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Gallery page with travel photos",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Testimonials section with customer reviews",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Floating WhatsApp and Call Now buttons site-wide",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Mobile responsive design and SEO-friendly content throughout",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-19",
+      "summary": "Implement a backend inquiry form submission handler in the Motoko actor. Store inquiry submissions with fields: name, email, phone, destination, travelDates, message, and a timestamp. Expose a public function to submit an inquiry and an admin function to retrieve all inquiries.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-20",
+      "summary": "Replace placeholder contact details with real phone number (7006946979) and email (arsalandezayker@gmail.com) across the entire site (Contact page, footer, WhatsApp/Call buttons, etc.)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "AtoN Travels",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

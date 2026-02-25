@@ -1,0 +1,47 @@
+{
+  "kind": "build_request",
+  "title": "Replace placeholder contact details with real phone number and email across the site",
+  "projectName": "AtoN Travels",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Replace all placeholder phone numbers and email addresses across the entire site with the real contact details: phone number 7006946979 and email arsalandezayker@gmail.com. This includes: the Contact page (displayed address block, Call Now button tel: link, WhatsApp button href), the Footer component (contact details section), the FloatingActionButtons component (Call Now tel: link and WhatsApp href using wa.me/917006946979), and the Navbar 'Call Now' CTA button.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "7006946979",
+          "arsalandezayker@gmail.com",
+          "Bro put this number and email on the site"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Contact page displays '7006946979' as the phone number and 'arsalandezayker@gmail.com' as the email address.",
+        "The 'Call Now' button on the Contact page has href='tel:+917006946979'.",
+        "The WhatsApp button on the Contact page links to 'https://wa.me/917006946979'.",
+        "The Footer contact section displays '7006946979' and 'arsalandezayker@gmail.com'.",
+        "The floating Call Now button links to 'tel:+917006946979'.",
+        "The floating WhatsApp button links to 'https://wa.me/917006946979'.",
+        "The Navbar 'Call Now' CTA button links to 'tel:+917006946979'.",
+        "No placeholder phone numbers (e.g., +91-XXXXX-XXXXX) or placeholder emails remain anywhere on the site."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change any backend logic or data schema.",
+    "Do not modify files listed in frontend.immutablePaths.",
+    "Use the Indian international format for WhatsApp links: wa.me/917006946979 (country code 91 + number)."
+  ],
+  "nonGoals": [
+    "Adding new pages or sections.",
+    "Changing the visual design or layout.",
+    "Backend changes."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

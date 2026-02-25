@@ -1,0 +1,43 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Replace placeholder contact details with real phone number and email across the site",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Replace all placeholder phone numbers and email addresses across the entire site with the real contact details: phone number 7006946979 and email arsalandezayker@gmail.com",
+      "acceptanceCriteria": [
+        "The Contact page displays '7006946979' as the phone number and 'arsalandezayker@gmail.com' as the email address.",
+        "The 'Call Now' button on the Contact page has href='tel:+917006946979'.",
+        "The WhatsApp button on the Contact page links to 'https://wa.me/917006946979'.",
+        "The Footer contact section displays '7006946979' and 'arsalandezayker@gmail.com'.",
+        "The floating Call Now button links to 'tel:+917006946979'.",
+        "The floating WhatsApp button links to 'https://wa.me/917006946979'.",
+        "The Navbar 'Call Now' CTA button links to 'tel:+917006946979'.",
+        "No placeholder phone numbers (e.g., +91-XXXXX-XXXXX) or placeholder emails remain anywhere on the site."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Replace placeholder phone number with '7006946979' and placeholder email with 'arsalandezayker@gmail.com' in the displayed address block. Update the 'Call Now' button href to 'tel:+917006946979' and the WhatsApp button href to 'https://wa.me/917006946979'."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace placeholder phone number with '7006946979' and placeholder email with 'arsalandezayker@gmail.com' in the contact details section of the footer."
+        },
+        {
+          "path": "frontend/src/components/FloatingActionButtons.tsx",
+          "operation": "modify",
+          "description": "Update the 'Call Now' button href to 'tel:+917006946979' and the WhatsApp button href to 'https://wa.me/917006946979' in the floating action buttons component."
+        },
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "modify",
+          "description": "Update the 'Call Now' CTA button href to 'tel:+917006946979' in the navigation bar."
+        }
+      ]
+    }
+  ]
+}

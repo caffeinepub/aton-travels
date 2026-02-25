@@ -1,0 +1,47 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-25T17:13:56.035Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-13",
+        "summary": "Replace all placeholder phone numbers and email addresses across the entire site with the real contact details: phone number 7006946979 and email arsalandezayker@gmail.com. This includes: the Contact page (displayed address block, Call Now button tel: link, WhatsApp button href), the Footer component (contact details section), the FloatingActionButtons component (Call Now tel: link and WhatsApp href using wa.me/917006946979), and the Navbar 'Call Now' CTA button.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Contact.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/components/FloatingActionButtons.tsx",
+          "frontend/src/components/Navbar.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Contact.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/components/FloatingActionButtons.tsx",
+          "frontend/src/components/Navbar.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/FloatingActionButtons.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Navbar.tsx",
+    "frontend/src/pages/Contact.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

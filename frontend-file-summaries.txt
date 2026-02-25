@@ -1,0 +1,19 @@
+{
+  "frontend/src/index.css": "Global styles with OKLCH color system defining AtoN Travels' warm earthy palette (deep teal, saffron/amber, off-white), Playfair Display + Inter typography, and utility classes for consistent card shadows, hover transitions, and section layouts.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom brand color tokens (teal, amber, offwhite, slate-dark), Playfair Display/Inter font families, card shadow variants, and fade-in-up animation keyframes.",
+  "frontend/src/App.tsx": "Main app component setting up TanStack Router with all 7 routes (Home, About, Services, Packages, Contact, Gallery, Testimonials) wrapped in a shared Layout component.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook for submitting travel inquiries to the backend canister via the submitInquiry actor method.",
+  "frontend/src/components/Layout.tsx": "Wrapper layout component that composes Navbar, page content via children, Footer, and FloatingActionButtons for consistent site-wide structure.",
+  "frontend/src/components/Navbar.tsx": "Responsive navigation bar with AtoN Travels branding, scroll-aware styling, desktop/mobile nav links, and Call Now / WhatsApp CTA buttons both linking to the real number 7006946979.",
+  "frontend/src/components/Footer.tsx": "Full-width footer with brand info, quick links, services list, and updated contact details showing 7006946979 and arsalandezayker@gmail.com with correct tel/mailto links, plus social icons and caffeine.ai attribution.",
+  "frontend/src/components/FloatingActionButtons.tsx": "Sticky bottom-right floating buttons for Call Now (tel:+917006946979) and WhatsApp (https://wa.me/917006946979) visible on all pages.",
+  "frontend/src/components/TestimonialsPreview.tsx": "Preview section showing 3 customer testimonial cards with star ratings, review text, reviewer info, and trip badge — used on the Home page.",
+  "frontend/src/components/Lightbox.tsx": "Full-screen image lightbox modal with keyboard navigation (ESC/arrows), prev/next controls, image counter, and click-outside-to-close functionality.",
+  "frontend/src/pages/Home.tsx": "Home page with full-width hero (Kashmir background image, tagline, CTA buttons), stats bar, services teaser grid, featured packages carousel, testimonials preview, and CTA banner.",
+  "frontend/src/pages/AboutUs.tsx": "About Us page with team image, two-paragraph agency description, mission statement, trust indicator cards (licensed, expert team, 24/7 support, 10+ years), and why-choose-us checklist.",
+  "frontend/src/pages/Services.tsx": "Services page with 5 detailed service cards (Tour Packages, Taxi & Transport, Hotel Bookings, Flight Bookings, Custom Planning) each with icon, description, feature list, and Inquire CTA.",
+  "frontend/src/pages/TourPackages.tsx": "Tour Packages page with 6 package cards (Kashmir Valley, Leh Ladakh, Vaishno Devi, All India, Honeymoon Special, Gulmarg Winter) showing images, duration, star ratings, highlights, pricing, and Book Now CTAs.",
+  "frontend/src/pages/Contact.tsx": "Contact page with real phone number (7006946979) and email (arsalandezayker@gmail.com) displayed in the business info panel, Call Now button linking to tel:+917006946979, and WhatsApp button linking to https://wa.me/917006946979.",
+  "frontend/src/pages/Gallery.tsx": "Gallery page with category filter tabs, responsive 2–3 column photo grid of 6 Kashmir/Ladakh images, hover overlays with captions, and lightbox modal on click.",
+  "frontend/src/pages/Testimonials.tsx": "Testimonials page with 7 customer review cards showing star ratings, full review text, reviewer name/location/trip/date, aggregate rating stats bar, and a plan-your-trip CTA."
+}

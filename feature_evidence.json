@@ -1,0 +1,26 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-all-placeholder-phone-numbers-and-email-addresses-across-the-entire-site-with-the-real-contact-details-phone-number-7006946979-and-email-arsalandezayker-gmail-com-this-includes-the-contact-page-displayed-address-block-call-now-button-tel-link-whatsapp-button-href-the-footer-component-contact-details-section-the-floatingactionbuttons-component-call-now-tel-link-and-whatsapp-href-using-wa-me-917006946979-and-the-navbar-call-now-cta-button",
+      "featureTitle": "Replace all placeholder phone numbers and email addresses across the entire site with the real contact details: phone number 7006946979 and email arsalandezayker@gmail.com. This includes: the Contact page (displayed address block, Call Now button tel: link, WhatsApp button href), the Footer component (contact details section), the FloatingActionButtons component (Call Now tel: link and WhatsApp href using wa.me/917006946979), and the Navbar 'Call Now' CTA button.",
+      "files": [
+        "frontend/src/components/FloatingActionButtons.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Navbar.tsx",
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
